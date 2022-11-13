@@ -1,0 +1,119 @@
+{"intents":  [
+  {"tag": "greetings",
+   "patterns": ["hello", "hey", "hi", "greetings", "what's up?", "how is it going", "sup"],
+   "responses": ["hello", "hey!", "what can i do for you?"]
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "see you later", "goodbye", "have a good day", "bye", "ciao", "thank you", "see ya"],
+   "responses": ["have a nice day", "it's been a pleasure", "goodbye"]
+  },
+  {"tag": "age",
+   "patterns": ["how old", "how old are you", "what is your age", "age?"],
+   "responses": ["I am as old as a new leaf born from a tree", "hey!", "my owners are averagely 20 years!"]
+  },
+  {"tag": "name",
+   "patterns": ["what is your name", "what should i call you", "what's your name?", "who are you?", "can you tell me your name"],
+   "responses": ["you can call me Med-bot!", "i am Med-bot!", "i am Med-bot your Ayurvedic medical assistant"]
+  },
+  {"tag": "common cold symptoms",
+   "patterns": ["i have Runny or stuffy nose", "i have blocked nose", "i have Sore throat", "i have scratchy throat", "i have Cough", "i have Congestion", "i have slight body aches or a mild headache", "i have muscle aches", "i have Sneezing", "i have Low-grade fever", "i am Generally feeling unwell (malaise)"],
+   "responses": ["It seems that you are suffering from common cold"]
+  },
+  {"tag": "fever symptoms",
+   "patterns": ["i am Sweating a lot", "i have got Chills and shivering", "i have a Headache", "i have Muscle aches", "i am having a Loss of appetite", "i am experiencing Irritability", "i am experiencing Dehydration", "i Generally feel weak"],
+   "responses": ["It seems that you are suffering from fever"]
+  },
+  {"tag": "Diabetes symptoms",
+   "patterns": ["having increased hunger", "having increased thirst", "going through weight loss", "having frequent urination", "having blurry vision", "feeling extreme fatigue"],
+   "responses": ["It seems that you are suffering from Diabetes"]
+  },
+  {"tag": "Depression symptoms",
+   "patterns": ["i feel Hopeless", "i feel sad", "i am having mood swings", "i have Lost interest", "Increased fatigue", "I hate myself", "i'm having sleep problem", "i'm having Anxiety", "i am having change in weight", "i feel like Looking at death"],
+   "responses": ["It seem that you are suffering from depression"]
+  },
+  {"tag": "Asthma symptoms",
+   "patterns": ["i'm coughing a lot", "i have chest pain", "i feel tightness in the chest", "i feel shortness in breath", "i feel difficulty in talking", "i panic sometimes", "i feel fatigue"],
+   "responses": ["It seem that you are suffering from Asthma"]
+  },
+  {"tag": "common cold prevention",
+   "patterns": ["Any self care remedies for common cold?", "How do i prevent common cold?", "What to do if i have common cold", "how to cure common cold?"],
+   "responses": ["Inhale steam to relieve a stuffed nose and add few drops of eucalyptus oil in a bowl of hot water. \n Strengthen your immune system by consuming Amla and Tulsi \n also eat a balanced diet and get plenty rest by consuming hot beverages."]
+  },
+  {"tag": "fever prevention",
+   "patterns": ["Any self care remedies for fever?", "How do i prevent fever?", "What to do if i have fever?", "how to cure fever"],
+   "responses": ["Use herbal kadha (ayurvedic drink prepared with several herbs and spices boiled together) of tulsi (basil). \n You can prepare it easily by boiling some tulsi leaves with a pinch of black pepper and jaggery \n Consume it while its still hot", "Kudzu is a well established medicinal plant in ayurveda \n and its roots help a lot in complimenting your immune system to attack the infestation of germs. \n It is a climbing vine that belongs to the pea family. \n You can boil a cleaned kudzu root for fifteen minutes and store it for consumption during the whole day.", "Turmeric milk to deal with your viral fever. \n The favorite herbal remedy of all the Indian mothers out there has to be turmeric milk (haldi ka doodh). \n This powerful drink boosts your immunity and helps you heal from terrible infections in a zilch of a moment.", "Dried ginger powder is another magic ingredient. \n Ginger is also a therapeutic ingredient to help you up your immunity game. \n Ayurveda recommends that your overall diet during a viral fever should be light, easy to digest, and full of fluids. \n Adding spices like cumin, pepper, cinnamon can relieve symptoms of viral fever like coughing, vomiting, increased sinus, and congestion. \n If your fever is persistent for more than 2 days, consult your physician or an ENT specialist to understand if any serious infection is the underlying cause of your viral fever."]
+  },
+  {"tag": "diabetes prevention",
+   "patterns": ["Any self care remedies for diabetes?", "How do i prevent diabetes?", "What to do if i have diabetes?", "how to cure diabetes?"],
+   "responses": ["Using Fenugreek seeds is effective. \n Fenugreek seeds are ‌easily available in most of the Indian kitchens. \n Soaking two tablespoons of fenugreek seeds in water at night, \n and drinking with the seeds in the morning can help lower blood sugar levels.", "Using Cinnamon is effective. \n Cinnamon is a natural bioactive spice and can help maintain blood sugar levels. \n It’s simple to consume. \n Just add half a teaspoon of grounded cinnamon in a glass of water, stir to mix and sip it down slowly. \n You can repeat this once a day.", "Mix Aloe Vera with Buttermilk. \n Aloe vera may be helpful in maintaining low blood sugar levels. \n Cut a few fresh slices from aloe vera leaves and consume it with buttermilk.", "Use Drumsticks. \n The great thing about it is that it may help manage blood sugar levels. \n Add a couple of slices to a jug of water and drink from this jug whenever thirsty."]
+  },
+  {"tag": "depression prevention",
+   "patterns": ["Any self care remedies for depression?", "How do i prevent depression?", "What to do if i have depression?", "how to cure depression?"],
+   "responses": ["If you experience some sense of dissapointment, stemming from events such as losing a job or getting divorced then you might be feeling: \n Excessive criticism both towards the self and others, \n Irritability, \n Accusing others or Accusing themselves, \n A sense of failure, \n Anger, outrage and aggression, \n Feeling useless, \n Guilt, \n Suicidal thoughts, \n Hiding your true feelings from others. \n To conquer this condition, rehearse relaxation techniques like breathing exercises, yoga, or meditation", "If you experience a mental health disorder caused by trauma, shock or loss then you might be feeling: \n Insomniac, \n Unpredictable mood swings, \n Auditory halluciantions, \n Reduced libido, \n Fear & Anxiety, \n Restlessness, \n Decreased appetite and weight loss. \n To treat this attempt to stay away from crude food varieties, just as harsh, astringent, and impactful flavors.", "If you are experiencing imbalance in your diet or lifestyle you might be feeling: \n down, dull or sluggish, \n Too much sleepy, \n Staying in bed all day, \n Negative thought patterns, \n Having a poor outlook on life. \n You can prevent this by circumventing sweet, salty, and sour flavors while favoring bitter, pungent, and astringent ones. \n Moreover, it’s best to avoid heavy foods. When planning meals, enjoy three regular, small meals per day without snacking in between."]
+  },
+  {"tag": "asthma prevention",
+   "patterns": ["Any self care remedies for asthma?", "How do i prevent asthma?", "What to do if i have asthma?", "how to cure asthma?"],
+   "responses": ["Use Honey and Cloves. \n To strengthen the lungs, a mixture of cloves (at least 7-8) and banana needs to be kept overnight and eaten the next day. \n Follow this up, after an hour (nothing to be consumed during the time), with a little hot water and honey. \n This is very helpful for those suffering from chronic bronchial asthma.", "Use Nightshade/Kanteli. \n 7 to 14 ml of the juice made from the whole plant or the fruits of the Yellow-berried Nightshade or Kanteli, as it’s called in Hindi, Kantakari in Sanskrit, can be consumed twice a day to relieve and ease symptoms of asthma.", "Drink Herbal Tea. Herbal tea made by blending Ajwain, Tulsi, pepper, and ginger is a useful natural expectorant for asthmatics.", "Involve yourself in Panchakarma. \n Panchakarma, that involves 5 (panch) actions of therapeutic treatment (karma), is very useful for asthmatic patients. \n It is a detoxification process that takes a person through 5 stages that involves the uses of herbs, herbal oils, medicated milk, and other Ayurvedic medicines.", "Consume the herbal plant Adulsa. Aside from treating a variety of other diseases, \n Adulsa is an Indian herb that’s been used to help control bronchitis for quite some time. \n It’s very effective as a cough remedy and for asthmatics.", "Use Cucurmin. \n Curcumin, which is the yellow pigment that gives turmeric its colour, \n it includes quite a few pharmacological and antioxidant components, of which, is its ability to inhibit inflammation. \n This naturally makes it a vital herb in the fight against Bronchial asthma."]
+  },
+  {"tag": "commoncold food",
+   "patterns": ["what kinds of food should i eat for common cold?", "what food should i intake for common cold?", "what should i eat for common cold?"],
+   "responses": ["Suggested foods are: \n Have Chicken soup, \n Get plenty of Vitamin C by intaking Cirus fruits like Orange/Lime/Lemon, \n Consume Kale/Brocolli/Cranberries/Red onions as they are antioxidants acting as germ fighters, \n Consume Chilli peppers as they clear out your nasal passages"]
+  },
+  {"tag": "fever food",
+   "patterns": ["what kinds of food should i eat for fever?", "what food should i intake for fever?", "what should i eat for fever?"],
+   "responses": ["Suggested foods are: \n Have Chicken broth, \n Consume Garlic in your food, \n Drink Coconut water as it consumes electrolytes, \n Consume raw Honey, \n Add Bananas to Oatmeal and Eat, \n Consume green leafy vegetables alongside Salmon"]
+  },
+  {"tag": "diabetes food",
+   "patterns": ["what kinds of food should i eat for diabetes?", "what food should i intake for diabetes?", "what should i eat for diabetes?"],
+   "responses": ["Suggested foods are: \n Eat Groundnuts, Brocolli, Spinach, Green beans, Blueberries, Strawberries \n Have more fish items as it's good in omega-3 fatty acids \n Consume Milk & Yoghurt \n Eat more tomatoes"]
+  },
+  {"tag": "depression food",
+   "patterns": ["what kinds of food should i eat for depression?", "what food should i intake for depression?", "what should i eat for depression?"],
+   "responses": ["Suggested foods are: \n favor gentle, dry, and cooling food sources like beans, potatoes, oats, and most vegetables.", "Suggested foods are: favor cooked food varieties with sweet, salty, and sour flavors.", "Suggested foods: To avoid heavy foods. When planning meals, enjoy three regular, small meals per day without snacking in between."]
+  },
+  {"tag": "asthma food",
+   "patterns": ["what kinds of food should i eat for asthma?", "what food should i intake for asthma?", "what should i eat for asthma?"],
+   "responses":["Suggested foods are: \n Apples and Oranges \n Salmon \n Beans \n Ginger \n Turmeric \n Spinach \n Pomegranates \n Tomato Juice"]
+  },
+  {"tag": "common cold medicines",
+   "patterns": ["What medication should i take for common cold?", "What medicines to take for common cold?", "medication for common cold", "Any medication for common cold?", "Any medicines for common cold?"],
+   "responses": ["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, \n preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers"]
+  },
+  {"tag": "fever medicines",
+   "patterns": ["What medication should i take for fever?", "What medicines to take for fever?", "medication for fever", "Any medication for fever?", "Any medicines for fever?"],
+   "responses": ["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, \n prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people."]
+  },
+  {"tag": "diabetes medicines",
+   "patterns": ["What medication should i take for diabetes?", "What medicines to take for diabetes?", "medication for diabetes", "Any medication for diabetes?", "Any medicines for diabetes?"],
+   "responses": ["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, \n prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking & Follow a Very-Low-Carb Diet,Watch Portion Sizes."]
+  },
+  {"tag": "depression medicines",
+   "patterns": ["What medication should i take for depression?", "What medicines to take for depression?", "medication for depression", "Any medication for depression?", "Any medicines for depression?"],
+   "responses": ["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, \n prevention that you must follow :Exercise regularly, Cut back on social media time, Drink Water as Your Primary Beverage, Build strong relationships, Minimize your daily choices, Follow a Very-Low-Carb Diet."]
+  },
+  {"tag": "asthma medicines",
+   "patterns": ["What medication should i take for asthma?", "What medicines to take for asthma?", "medication for asthma", "Any medication for asthma?", "Any medicines for asthma?"],
+   "responses": ["medicines you can consume : epinephrine, anticholinergic, Proair HFA, \n prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type."]
+  },
+  {"tag": "Consultation for common cold",
+   "patterns": ["who should i contact for consulting common cold?", "can i see a doctor for common cold?", "can you recommend a doctor for my common cold?", "is there any doctor available for common cold?", "can you name some doctors who consult common cold?", "can you set up an appointment with a doctor for common cold consultation?", "is there any doctor available for common cold consultation?"],
+   "responses": ["You can contact various doctors here for any kind of consultation: 1. https://www.practo.com/bangalore/treatment-for-colds, or you can pay a visit to your local area doctor or family doctor."]
+  },
+  {"tag": "Consultation for fever",
+   "patterns": ["who should i contact for consulting fever?", "can i see a doctor for fever?", "can you recommend a doctor for my fever?", "is there any doctor available for fever?", "can you name some doctors who consult fever?", "can you set up an appointment with a doctor for fever consultation?", "is there any doctor available for fever consultation"],
+   "responses": ["You can contact various doctors here for any kind of consultation: 1. https://www.practo.com/bangalore/doctors-for-fever-treatment, or you can pay a visit to your local area doctor or family doctor."]
+  },
+  {"tag": "Consultation for diabetes",
+   "patterns": ["who should i contact for consulting diabetes?", "can i see a doctor for diabetes?", "can you recommend a doctor for my diabetes", "is there any doctor available for diabetes?", "can you name some doctors who consult diabetes?", "can you set up an appointment with a doctor for diabetes consultation?", "is there any doctor available for diabetes consultation"],
+   "responses": ["You can contact various doctors here for any kind of consultation: 1. https://www.practo.com/bangalore/diabetologist, or you can pay a visit to your local area doctor or family doctor."]
+  },
+  {"tag": "Consultation for depression",
+   "patterns": ["who should i contact for consulting depression?", "can i see a doctor for depression?", "can you recommend a doctor for my depression", "is there any doctor available for depression?", "can you name some doctors who consult depression?", "can you set up an appointment with a doctor for depression consultation?", "is there any doctor available for depression consultation?"],
+   "responses": ["You can contact various doctors here for any kind of consultation: 1. https://www.practo.com/bangalore/psychiatrist, or you can pay a visit to your local area doctor or family doctor."]
+  },
+  {"tag": "Consultation for asthma",
+   "patterns": ["who should i contact for consulting asthma?", "can i see a doctor for asthma?", "can you recommend a doctor for my asthma?", "is there any doctor available for asthma?", "can you name some doctors who consult asthma?", "can you set up an appointment with a doctor for asthma consultation?", "is there any doctor available for asthma consultation"],
+   "responses": ["You can contact various doctors here for any kind of consultation: 1. https://www.practo.com/bangalore/doctors-for-bronchial-asthma-treatment, or you can pay a visit to your local area doctor or family doctor."]
+  }
+]}
+
