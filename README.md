@@ -13,6 +13,6 @@
    words where the sentence is converted into a list full of 0 & 1 indicating whether the word is there or not, the 3rd function predicts the previous 2 
    functions, and the 4th function is to get the responses from the bot 
 9. Chatbot provides interactive messages to the user/patient to diagnose and provide basic details about the disease
-**10**. To follow the code refer the python file and to understand the methodology please read the project report
-**11**. *NOTE* the important part of this code is the 'intents.json' file which is the main reason the bot responds to the users demands. The indentation mentioned in the json file is important to follow as it suits the way how the code works
+10. **To follow the code refer the python file and to understand the methodology please read the project report**
+11. *NOTE* **The important part of this code is the 'intents.json' file which is the main reason the bot responds to the users demands. The indentation mentioned in the json file is important to follow as it suits the way how the code works**
 Hope this gives some understanding on how chatbots work with neural networks...THANK YOU! 
